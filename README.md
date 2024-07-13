@@ -1,6 +1,6 @@
 # Chai aur Code - 30 Days of JavaScript Challenge
 
-Welcome to the **Chai aur Code - 30 Days of JavaScript Challenge**! This repository documents my journey as I tackle various JavaScript challenges over the next 30 days. I started this challenge on [Date] and have completed my first day challenge. I am excited to learn more and improve my JavaScript skills.
+Welcome to the **Chai aur Code - 30 Days of JavaScript Challenge**! This repository documents my journey as I tackle various JavaScript challenges over the next 30 days. I started this challenge on 13/7/2024 and have completed my first day challenge. I am excited to learn more and improve my JavaScript skills.
 
 ## Challenge Overview
 
