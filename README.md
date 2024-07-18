@@ -66,4 +66,3 @@ Happy Coding! ☕️💻
 
 ---
 
-**Disclaimer**: This challenge is inspired by various JavaScript learning resources and is not affiliated with any official program.
