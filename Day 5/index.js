@@ -60,3 +60,43 @@ console.log(character("Mahnoor", "o"))
 // Activity 4: Function Parameters and Default value
 
 // Task 7:
+function product(number, number2){
+    number2 = 4
+
+    return(number * number2);
+}
+
+console.log(product(2))
+
+//Task 8:
+function greetings(name , age = "unknown"){
+    return `Hello, ${name} you are ${age} years old`;
+}
+console.log(greetings("Mahnoor",23));
+console.log(greetings("Muzammil Ali"));
+
+// Activity 5: Higher Order Function
+
+// Task 9:
+const higherOderfunction =(funct, times) =>{
+    for(let i = 0; i<=times; i++){
+        funct();
+    }
+};
+const sayHelloAndGoodBye = () =>{
+    console.log("Hello and goodBye")
+}
+higherOderfunction(sayHelloAndGoodBye,6);
+
+// Task 10 
+const applyFunction = (funct1, funct2, value)=>{
+    const result1 = funct1(value);
+    const result2 = funct2(result1);
+    return result2;
+}
+
+const addSeven = x =>x+7;
+const squareNum = x => x * x;
+
+const result = applyFunction(addSeven, squareNum, 2);
+console.log(result);
